@@ -2,7 +2,7 @@
 
 ## Installation
 
-Download composer
+1) Download composer
 
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
 
@@ -13,7 +13,8 @@ php composer-setup.php
 php -r "unlink('composer-setup.php');
 
 
-Install packages
+
+2) Install packages
 
 php composer.phar install
 
