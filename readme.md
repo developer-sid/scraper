@@ -10,7 +10,7 @@ php -r "if (hash_file('sha384', 'composer-setup.php') === '93b54496392c062774670
 
 php composer-setup.php
 
-php -r "unlink('composer-setup.php');
+php -r "unlink('composer-setup.php');"
 
 
 
